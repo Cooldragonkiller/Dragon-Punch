@@ -1,5 +1,5 @@
-document.write("you need to punch some dragons<br/>");
-document.write("<br/>okay wooo");
+document.write("You need to punch some dragons<br/>");
+document.write("<br/>Okay, sure");
 
 function whoToPunch(punchTarget, numberOfTimes){
     	
