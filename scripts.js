@@ -4,7 +4,7 @@ document.write("<br/>Okay, sure");
 function whoToPunch(punchTarget, numberOfTimes){
     	
 	for (var index = 0; index < numberOfTimes; index = index + 1){
-		document.write("<br/><br/>punch "+punchTarget);
+		document.write("<img src=\"http://i.imgur.com/InCs4Ie.png\"/>"+punchTarget);
 		
 	}
 }
