@@ -22,11 +22,11 @@ function update() {
 	}
 	
 	if (game.input.keyboard.isDown(Phaser.Keyboard.UP)) {
-		player.y = player.y + 1;
+		player.x = player.y - 1;
 	}
 	
 	if (game.input.keyboard.isDown(Phaser.Keyboard.DOWN)) {
-		player.y = player.y - 1;
+		player.y = player.y + 1;
 	}
 		
 		
