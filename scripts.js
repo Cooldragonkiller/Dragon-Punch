@@ -26,7 +26,7 @@ function update() {
 	}
 	
 	if (game.input.keyboard.isDown(Phaser.Keyboard.DOWN)) {
-		player.y = player.y - 1;
+		player.x = player.y - 1;
 	}
 		
 		
