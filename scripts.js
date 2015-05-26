@@ -1,19 +1,11 @@
-document.write("You need to punch some dragons<br/>");
-document.write("<br/>Okay, sure");
+var game = new Phaser.Game(800, 600, Phaser.AUTO, "dragon-punch", {
+	preload: preload, create: create
+});
 
-function whoToPunch(punchTarget, numberOfTimes){
-    	
-	for (var index = 0; index < numberOfTimes; index = index + 1){
-		document.write("<img src=\"http://i.imgur.com/InCs4Ie.png\"/>"+punchTarget);
-		
-	}
+function preload() {
+	game.load.image("player","Images/small-fry.png");
 }
 
-whoToPunch("<img src=\"http://i.imgur.com/Fa5HjTJ.png\"/>", 4);
-
-whoToPunch("<img src=\"http://i.imgur.com/hCNbvTP.png\"/>", 1);
-
-var num = 19;
-
-document.write("<br/><br/><br/><br/>Woooo! You done it, congrations!");
-document.write("<img src=\"http://i.imgur.com/oGu6Ek8.png\"/>");
+function create() {
+	game.add.sprite(400,300,"player");
+}
