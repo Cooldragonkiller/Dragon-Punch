@@ -20,4 +20,14 @@ function update() {
 	if (game.input.keyboard.isDown(Phaser.Keyboard.LEFT)) {
 		player.x = player.x - 1;
 	}
+	
+	if (game.input.keyboard.isDown(Phaser.Keyboard.UP)) {
+		player.x = player.y + 1;
+	}
+	
+	if (game.input.keyboard.isDown(Phaser.Keyboard.DOWN)) {
+		player.x = player.y - 1;
+	}
+		
+		
 }
