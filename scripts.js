@@ -13,5 +13,8 @@ function create() {
 }
 
 function update() {
-	player.x = player.x + 1;
+	if (game.input.keyboard.isDown(Phaser.Keyboard.RIGHT)) {
+		player.x = player.x + 1;
+	}
+	
 }
