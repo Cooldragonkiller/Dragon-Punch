@@ -7,7 +7,7 @@ var movespeed = 5;
 var player;
 
 function preload() {
-	game.load.image("player","Images/small-fry.png");
+	game.load.image("player","Images/player-robot.png");
 	
 	game.load.image("background", "Images/background.png");
 	
