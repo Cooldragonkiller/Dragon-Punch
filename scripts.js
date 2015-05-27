@@ -2,7 +2,7 @@ var game = new Phaser.Game(800, 600, Phaser.AUTO, "dragon-punch", {
 	preload: preload, create: create, update: update
 });
 
-var movespeed = 5;
+var movespeed = 1;
 
 var player;
 
