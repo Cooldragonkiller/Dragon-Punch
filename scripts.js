@@ -15,7 +15,7 @@ var game = new Phaser.Game(SCREEN_WIDTH, SCREEN_HEIGHT, Phaser.AUTO, "dragon-pun
 });
 
 var movespeed = 2;
-var fallspeed = -8;
+var fallspeed = 0;
 
 var walkanim;
 
